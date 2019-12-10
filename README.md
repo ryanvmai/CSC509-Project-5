@@ -1,4 +1,4 @@
-//:https://www.markdownguide.org/basic-syntax/
+[//]: # (https://www.markdownguide.org/basic-syntax/)
 # CSC509 Project 5
  Ryan Mai
  December 13, 2019
