@@ -2,7 +2,7 @@
 # CSC509 Project 5 | Ryan Mai
 
 ## **What is this repository?**
-This repository is for computer science 509 project 5 which contains many practice problems with arrays and loops. The Project Euler ones are challenging array and loops problems whereas the CodingBat ones are more streamlined and better for initial learning.
+This repository is for computer science 509 project 5 which contains many practice problems with arrays and loops using the swift programming language. The Project Euler ones are challenging array and loops problems whereas the CodingBat ones are more streamlined and better for initial learning.
 
 ## **Array Problems**
 ### **Project Euler**
