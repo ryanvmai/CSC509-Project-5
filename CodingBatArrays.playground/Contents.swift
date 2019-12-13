@@ -75,17 +75,3 @@ let arrayNine = [10,10]
 print(canBalance(array: arraySeven)) //true
 print(canBalance(array: arrayEight)) //false
 print(canBalance(array: arrayNine)) //true
-
-
-// one
-//two
-//three
-//four
-//five
-//six
-//seven
-//eight
-//nine
-//ten
-
-//
