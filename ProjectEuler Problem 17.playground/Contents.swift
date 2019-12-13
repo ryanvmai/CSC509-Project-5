@@ -1,16 +1,12 @@
-import UIKit
 //: # Ryan Mai
 //: ## [Project Euler Problem 17](https://projecteuler.net/problem=17)
 //: If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
 //: If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used? */
 
-var wordNum = 5
-//print(words[wordNum-1].count)
-
-
-
 func getNum(num: Int) -> Int {
-    let words = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety", "Hundred", "Thousand"]
+    let words = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety", "Hundred", "One Thousand"]
+    let and = "and"
+    
     switch num {
     case 1...20:
         //print(words[num-1])
@@ -39,9 +35,6 @@ func getNum(num: Int) -> Int {
     case 90:
         //print(words[26])
         return words[26].count
-//    case 100:
-//        print(words[27])
-//        return words[27].count
     case 21...99:
         let num2 = num % 10
         let num1 = num / 10
@@ -62,17 +55,18 @@ func getNum(num: Int) -> Int {
             //print(words[arrayNums[0]-1], words[27])
             return words[arrayNums[0]-1].count + words[27].count
         }
-        if arrayNums[2] == 0 {
-            //print(words[arrayNums[0]-1], words[27], words[arrayNums[1]+17])
-            return words[arrayNums[0]-1].count + words[27].count + words[arrayNums[1]+17].count
-        }
         if arrayNums[1] < 2 {
-            //print(words[arrayNums[0]-1], words[27], words[(num % 100)-1])
-            return words[arrayNums[0]-1].count + words[27].count + words[(num % 100)-1].count
+            //print(words[arrayNums[0]-1], words[27], and, words[(num % 100)-1])
+            return words[arrayNums[0]-1].count + words[27].count + and.count + words[(num % 100)-1].count
         }
-        //print(words[arrayNums[0]-1], words[27],  words[arrayNums[1]+17], words[arrayNums[2]-1])
+        if arrayNums[2] == 0 {
+            //print(words[arrayNums[0]-1], words[27], and, words[arrayNums[1]+17])
+            return words[arrayNums[0]-1].count + words[27].count + and.count + words[arrayNums[1]+17].count
+        }
+        //print(words[arrayNums[0]-1], words[27], and, words[arrayNums[1]+17], words[arrayNums[2]-1])
         return words[arrayNums[0]-1].count + words[27].count + words[arrayNums[1]+17].count + words[arrayNums[2]-1].count
     case 1000:
+        //print(words[28])
         return words[28].count
     default:
         return 0
@@ -80,9 +74,9 @@ func getNum(num: Int) -> Int {
 }
 
 var sum = 0
-for i in 1...1000 {
+for i in 0...1000 {
     sum += getNum(num: i)
 }
 
 print(sum)
-
+//ANS 21124
