@@ -1,5 +1,9 @@
 import UIKit
 
+//: # Ryan Mai
+//: ## [Project Euler Problem 10](https://projecteuler.net/problem=10)
+//: Find the sum of all the primes below two million.
+
 let start = CFAbsoluteTimeGetCurrent()
 
 //variables

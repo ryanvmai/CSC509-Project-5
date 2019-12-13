@@ -1,10 +1,9 @@
 import UIKit
 
-//Ryan Mai
-//https://projecteuler.net/problem=25
-
-//The Fibonacci sequence is defined by the recurrence relation:
-//Fn = Fn−1 + Fn−2, where F1 = 1 and F2 = 1.
+//: # Ryan Mai
+//: ## [Project Euler Problem 25](https://projecteuler.net/problem=25)
+//:The Fibonacci sequence is defined by the recurrence relation:
+//:Fn = Fn−1 + Fn−2, where F1 = 1 and F2 = 1.
 
 class Number {
     var number: Int = 0

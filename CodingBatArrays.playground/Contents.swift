@@ -1,11 +1,10 @@
 import UIKit
+//: ## Ryan Mai
+//: ## CodingBat Array problems
 
-//CodingBat Array problems
+//: ### [makeMiddle](https://codingbat.com/prob/p265802)
+//: Given an array of ints of even length, return a new array length 2 containing the middle two elements from the original array. The original array will be length 2 or more.
 
-//makeMiddle
-/*
-Given an array of ints of even length, return a new array length 2 containing the middle two elements from the original array. The original array will be length 2 or more.
- */
 print("makeMiddle")
 
 func makeMiddle(array: [Int]) -> [Int] {
@@ -21,10 +20,9 @@ print(makeMiddle(array: arrayOne))
 print(makeMiddle(array: arrayTwo))
 
 
-//has23
-/*
-Given an int array length 2, return true if it contains a 2 or a 3.
- */
+//: ### [has23](https://codingbat.com/prob/p171022)
+//: Given an int array length 2, return true if it contains a 2 or a 3.
+
 print("has23")
 
 func has23(array: [Int]) -> Bool {
@@ -45,8 +43,8 @@ print(has23(array: arrayFour))
 print(has23(array: arrayFive))
 print(has23(array: arraySix))
 
-//canBalance
-/* Given a non-empty array, return true if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side. */
+//: ### [canBalance](https://codingbat.com/prob/p158767)
+//:Given a non-empty array, return true if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side.
 print("canBalance")
 
 func canBalance(array: [Int]) -> Bool {
