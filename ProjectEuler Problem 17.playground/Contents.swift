@@ -14,10 +14,6 @@ var wordNum = 5
 
 func getNum(num: Int) -> Int {
     let words = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety", "Hundred", "Thousand"]
-    //testing
-//    for i in 0..<words.count {
-//        print("i: \(i), \(words[i])")
-//    }
     switch num {
     case 1...20:
         //print(words[num-1])
