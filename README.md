@@ -1,16 +1,13 @@
 [//]: # (https://www.markdownguide.org/basic-syntax/)
-# CSC509 Project 5
- Ryan Mai
- 
- December 13, 2019
- 
- Dr. Zufelt
- 
- CSC 509
- 
- 
- Hello, my name is **Ryan** and this is my CSC 509 Project 5!
- ### About this project
- This is my *comp sci project*
- 
- [GitHub](https://www.github.com)
+# CSC509 Project 5 | Ryan Mai
+
+### **Project Euler**
+[Problem 7](https://projecteuler.net/problem=7)
+[Problem 10](https://projecteuler.net/problem=10)
+[Problem 17](https://projecteuler.net/problem=17)
+[Problem 25](https://projecteuler.net/problem=25) (Incomplete)
+
+### **CodingBat**
+makeMiddle
+has23
+canBalance
