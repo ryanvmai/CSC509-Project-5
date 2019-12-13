@@ -3,6 +3,8 @@
 //: If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
 //: If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used? */
 
+//: Could not get the right answer, but I think that everything runs smoothly
+
 func getNum(num: Int) -> Int {
     let words = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety", "Hundred", "One Thousand"]
     let and = "and"
