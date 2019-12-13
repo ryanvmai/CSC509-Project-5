@@ -35,4 +35,5 @@ Given an int array length 2, return true if it contains a 2 or a 3.
 
 Given a non-empty array, return true if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side.
 
-
+## **Other**
+I added descriptions to Emma's README.md. Her repository can be found [here](https://github.com/esly20/Project5_ESlibeck).
