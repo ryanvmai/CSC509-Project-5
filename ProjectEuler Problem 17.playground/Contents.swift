@@ -76,7 +76,7 @@ func getNum(num: Int) -> Int {
 }
 
 var sum = 0
-for i in 0...1000 {
+for i in 1...1000 {
     sum += getNum(num: i)
 }
 
